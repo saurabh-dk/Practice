@@ -18,9 +18,6 @@ public class Practice1 {
 		}
 		sc.close();
 		
-		//al.stream().chars().filter(item -> Character.isUpperCase(item).count());
-		//filter(al, (item) -> item.chars().filter(character -> Character.isUpperCase(character)));
-		
 		for(int j=0;j<size;j++){
 			
 			long count=al.get(j).chars().filter(character -> Character.isUpperCase(character)).count();
