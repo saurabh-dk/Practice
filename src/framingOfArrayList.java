@@ -45,7 +45,7 @@ public class framingOfArrayList {
 		
 		printStars();
 		
-		System.out.print("\n");
+		System.out.println();
 		
 		al.forEach(
 			str -> {System.out.print("* "+str);
