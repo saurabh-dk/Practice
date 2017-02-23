@@ -11,6 +11,7 @@ public class Hourglass {
 		Scanner sc = new Scanner(System.in);
 		int length = sc.nextInt();
 		System.out.println();
+		sc.close();
 		
 		while(i<=length && i>0){
 			
